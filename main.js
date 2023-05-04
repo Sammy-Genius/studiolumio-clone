@@ -11,7 +11,7 @@ const worksText = document.querySelector('.works-text');
 const imgContainer = document.querySelector('.img-box');
 
 //This line of code fires the pointermove event
-container.onpointermove = (event) => {
+container.onmousemove = (event) => {
     const bounds = event.currentTarget.getBoundingClientRect();
     const x = event.clientX - bounds.left;
     const y = event.clientY - bounds.top;
