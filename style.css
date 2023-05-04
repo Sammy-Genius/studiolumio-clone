@@ -443,12 +443,16 @@ body:after {
 }
 
 @media screen and (max-width:900px) {
+
+    a {
+        font-size:1rem;
+    }
     .mantra-box {
         top:24%;
     }
 
     .text {
-        text-shadow: -2px 2px 5px #c1c1c1;
+        text-shadow: -1px 1px 2px #c1c1c1;
     }
 
     .container {
