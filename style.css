@@ -230,6 +230,9 @@ body:after {
     width:13px;
     height:13px;
     display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .shape img {
@@ -472,6 +475,7 @@ body:after {
    }
 
    .menu-container {
+    margin-top:40%;
     height:auto;
    }
 
@@ -531,6 +535,4 @@ body:after {
         width:300px;
         height:300px;
     }
-
-    
 }
