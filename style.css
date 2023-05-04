@@ -452,7 +452,7 @@ body:after {
     }
 
     .text {
-        text-shadow: -1px 1px 2px #c1c1c1;
+        text-shadow: none;
     }
 
     .container {
