@@ -537,4 +537,8 @@ body:after {
         width:300px;
         height:300px;
     }
+
+    .sm-box a {
+        font-weight: 600;
+    }
 }
