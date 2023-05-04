@@ -372,19 +372,6 @@ body:after {
     justify-content: space-around;
 }
 
-/*.img-box2 {
-    background-image: url(https://www.studiolumio.com/img/works.webp);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    position: absolute;
-    transform: translateY(1000px);
-    right:3%;
-    width:170px;
-    height:170px;
-    border-radius: 15px;
-}*/
-
 .img-box {
     background-image: url(https://www.studiolumio.com/img/works.webp);
     background-repeat: no-repeat;
@@ -408,22 +395,6 @@ body:after {
     border-radius: 15px;
     transition: all .5s cubic-bezier(.77,0,.175,1);
 }
-
-/*.inner-img0 {
-    background-color: yellow;
-}
-
-.inner-img1 {
-    background-color: green;
-}
-
-.inner-img2 {
-    background-color: pink;
-}
-
-.inner-img3 {
-    background-color: blueviolet;
-}*/
 
 .img-box img {
     width:100%;
@@ -473,6 +444,10 @@ body:after {
         top:24%;
     }
 
+    .text {
+        text-shadow: -2px 2px 5px #c1c1c1;
+    }
+
     .container {
         width:95%;
     }
@@ -480,6 +455,10 @@ body:after {
    .studio-name {
     width:95%;
     height:35%;
+   }
+
+   .marquee-box {
+    bottom:20%;
    }
 
    .menu {
@@ -552,5 +531,6 @@ body:after {
         width:300px;
         height:300px;
     }
+
     
 }
